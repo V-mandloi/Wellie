@@ -1,9 +1,9 @@
 
 import React from "react";
-import Social1 from "../../../public/Social1.png"
-import Social2 from "../../../public/Social2.png"
-import Social3 from "../../../public/Social3.png"
-import Social4 from "../../../public/Social4.png"
+import Social1 from "../../assets/Social1.png"
+import Social2 from "../../assets/Social2.png"
+import Social3 from "../../assets/Social3.png"
+import Social4 from "../../assets/Social4.png"
 
 
 const Footer = () => {
