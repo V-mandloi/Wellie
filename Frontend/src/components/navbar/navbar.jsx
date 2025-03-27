@@ -4,6 +4,7 @@ import {
   DisclosurePanel,
 } from "@headlessui/react";
 import { Bars3Icon, XMarkIcon } from "@heroicons/react/24/outline";
+import logo from "../../assets/logo.png";
 
 const navigation = [
   { name: "Home", href: "#", current: true },
@@ -38,11 +39,7 @@ export default function Example() {
           </div>
           <div className="flex flex-1 items-end justify-center sm:items-stretch sm:justify-start">
             <div className="flex shrink-0 items-center">
-              <img
-                alt="Your Company"
-                src="https://tailwindcss.com/plus-assets/img/logos/mark.svg?color=indigo&shade=500"
-                className="h-8 w-auto"
-              />
+              <img alt="Your Company" src={logo} className="h-12 w-12" />
             </div>
           </div>
           {/* Moved navbar items to replace notification and profile section */}
@@ -54,7 +51,7 @@ export default function Example() {
                 aria-current={item.current ? "page" : undefined}
                 className={classNames(
                   item.current
-                    ? "bg-gray-900 text-white"
+                    ? "bg-hometext text-white"
                     : "text-black hover:bg-buttonBg hover:text-black",
                   "rounded-md px-3 py-2 text-sm font-medium"
                 )}
