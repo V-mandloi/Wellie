@@ -1,4 +1,3 @@
-
 import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
 import Root from "./Root";
 import Home from "./pages/hero";
@@ -12,4 +11,7 @@ function App() {
         </Route>
       </Routes>
     </Router>
+  );
+}
 
+export default App;
