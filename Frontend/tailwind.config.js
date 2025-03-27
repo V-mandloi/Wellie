@@ -12,6 +12,9 @@ export default {
         placeholder: "#6E7174",
         buttonBg: "#EDD4B9",
       },
+      fontFamily: {
+        custom: ["'Poppins'", "sans-serif"],
+      },
     },
   },
   plugins: [],
