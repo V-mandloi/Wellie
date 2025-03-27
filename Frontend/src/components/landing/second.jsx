@@ -1,37 +1,60 @@
-import { Card } from "../../components/smallComponents/card";
-import TextHeading from "../smallComponents/heading&subtitle";
+import React from "react";
+import CheckmarkText from "../smallComponents/philosophyCard";
+import loginimage1 from "../../assets/loginimage1.png";
+import loginimage2 from "../../assets/loginimage2.png";
+import TextBlock from "../smallComponents/heading&subtitle";
 
-export default function HealioPhilosophy() {
+const PhilosophySection = () => {
   return (
-    <section className="bg-green-50 py-12 px-4 md:px-16 text-center">
-      <TextHeading
-        title="The Wellie Philosophy"
+    <div className="flex flex-col items-center justify-center bg-primary py-16 px-4">
+      {/* Title Section */}
+
+      <TextBlock
+        title="The Healio Philosophy"
         subtitle="Life is noisy (and that's the way it’s supposed to be!) Nurture your inner quiet with Healio."
       />
 
-      <div className="flex justify-center my-12">
-        <img
-          src="/healio-app.png"
-          alt="Healio App Preview"
-          className="w-full sm:w-3/4 md:w-2/3 lg:w-1/2"
-        />
-      </div>
+      {/* Content Section */}
+      <div className="relative flex flex-col lg:flex-row items-center justify-center max-w-6xl w-full">
+        {/* Left Side Items */}
+        <div className="space-y-10 lg:absolute lg:left-0 lg:top-1/2 lg:-translate-y-1/2">
+          <CheckmarkText text="Find peace" />
+          <CheckmarkText text="Live with uncertainty" />
+          <CheckmarkText text="Reduce stress" />
+        </div>
+        <div className="flex justify-center items-center relative">
+          <div className="w-44 sm:w-40 md:w-36 lg:w-52 absolute -left-24 sm:-left-28 md:-left-32 lg:-left-36">
+            <img
+              src={loginimage1}
+              alt="Mindfulness"
+              className="rounded-2xl shadow-lg w-full"
+            />
+          </div>
+          <div className="w-48 sm:w-44 md:w-40 lg:w-56 relative z-10">
+            <img
+              src={loginimage2}
+              alt="Meditation"
+              className="rounded-2xl shadow-lg w-full"
+            />
+          </div>
+          <div className="w-44 sm:w-40 md:w-36 lg:w-52 absolute -right-24 sm:-right-28 md:-right-32 lg:-right-36">
+            <img
+              src={loginimage1}
+              alt="Relaxation"
+              className="rounded-2xl shadow-lg w-full"
+            />
+          </div>
+        </div>
 
-      <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-3 gap-8 text-green-900">
-        {[
-          "Find peace",
-          "Live with uncertainty",
-          "Reduce stress",
-          "Embrace challenges",
-          "Be mindful",
-          "Manage panic attacks",
-        ].map((text, index) => (
-          <Card key={index} className="flex items-center">
-            <span className="text-2xl mr-2">✔️</span>
-            <p className="text-lg font-medium">{text}</p>
-          </Card>
-        ))}
+        {/* Right Side Items */}
+        <div className="space-y-10 lg:absolute lg:right-0 lg:top-1/2 lg:-translate-y-1/2">
+          <CheckmarkText text="Embrace challenges" />
+          <CheckmarkText text="Be mindful" />
+          <CheckmarkText text="Manage panic attacks" />
+        </div>
       </div>
-    </section>
+    </div>
   );
-}
+};
+
+export default PhilosophySection;
