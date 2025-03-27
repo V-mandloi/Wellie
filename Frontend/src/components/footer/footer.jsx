@@ -1,3 +1,4 @@
+
 import React from "react";
 import Social1 from "../../../public/Social1.png"
 import Social2 from "../../../public/Social2.png"
@@ -71,3 +72,4 @@ const Footer = () => {
   
   export default Footer;
   
+
