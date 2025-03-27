@@ -22,7 +22,7 @@ const HeroSection = () => {
             <br />
             <a
               href="#"
-              className="bg-pink-50 px-6 py-3 rounded-lg shadow-md m text-sm font-semibold mt-10 transition hover:bg-slate-400 "
+              className="bg-stone-300 px-6 py-3 rounded-lg shadow-md m text-sm font-semibold mt-10 transition hover:bg-stone-100 "
             >
               Learn More
             </a>
