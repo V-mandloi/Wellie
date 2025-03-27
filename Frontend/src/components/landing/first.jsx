@@ -1,6 +1,7 @@
 import { FaApple, FaGooglePlay } from "react-icons/fa";
 import loginimage1 from "../../assets/loginimage1.png";
 import loginimage2 from "../../assets/loginimage2.png";
+import logo from "../../assets/logo.png";
 
 const Button = ({ children, className, ...props }) => (
   <button className={`px-6 py-3 rounded-lg shadow-lg ${className}`} {...props}>
@@ -18,7 +19,7 @@ export default function HealioLanding() {
           {/* Header Section */}
           <header>
             <div className="flex justify-center sm:justify-center mb-4">
-              <img src="/logo.svg" alt="Healio Logo" className="w-12 h-12" />
+              <img src={logo} alt="Healio Logo" className="w-20 h-25" />
             </div>
             <h1 className="text-3xl sm:text-4xl md:text-5xl lg:text-6xl font-bold text-green-900">
               Healio
@@ -64,7 +65,7 @@ export default function HealioLanding() {
           </div>
           <div className="w-54 sm:w-45 md:w-30 lg:w-60">
             <img
-              src={loginimage1}
+              src={loginimage2}
               alt="Meditation"
               className="rounded-2xl shadow-lg w-full"
             />
