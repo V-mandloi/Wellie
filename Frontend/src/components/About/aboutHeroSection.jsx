@@ -23,7 +23,7 @@ const HeroSection = () => {
             <br />
             <a
               href="#"
-              className="bg-hometext text-white px-6 py-3 rounded-lg shadow-md m text-sm font-semibold mt-10 transition hover:bg-stone-100"
+              className="bg-hometext text-white px-6 py-3 rounded-lg shadow-md m text-sm font-semibold mt-10 transition hover:bg-stone-100 hover:text-black"
             >
               Learn More
             </a>
