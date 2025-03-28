@@ -8,12 +8,12 @@ const BenefitsSection = () => {
   return (
     <div className="bg-primary py-16 px-6 text-center">
       <TextBlock
-        title="The benefits of Mindshine"
+        title="The benefits of Wellie"
         subtitle="Over 350 audio and video-guided sessions that break down complex scientific principles into 
         simple, easy, and fun practices with the Mindshine coach at the center, recommending your 
         next action and helping to keep you accountable."
       />
-      {/* Feature Cards */}
+
       <div className="mt-12 grid grid-cols-1 md:grid-cols-3 gap-8 max-w-5xl mx-auto">
         <InfoCard
           icon={<BeakerIcon className="w-10 h-10 text-white" />}
