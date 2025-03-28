@@ -25,9 +25,10 @@ const supportOptions = [
 
 const ContactSupport = () => {
   return (
+    <div className="font-custom bg-primary">
     <section className="bg-[#F8F8F8] py-16 px-6 md:px-12">
       {/* Section Title */}
-      <h2 className="text-2xl md:text-3xl font-bold text-gray-900 text-center mb-10">
+      <h2 className="text-2xl md:text-3xl font-bold text-hometext text-center mb-10">
         Contact Support
       </h2>
 
@@ -38,6 +39,7 @@ const ContactSupport = () => {
         ))}
       </div>
     </section>
+    </div>
   );
 };
 

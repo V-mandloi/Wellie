@@ -22,10 +22,10 @@ const features = [
 
 const FeaturesSection = () => {
   return (
-    <div className="bg-#F8F8F8">
+    <div className="bg-primary font-custom">
     <section className="max-w-6xl mx-auto px-6 md:px-12 py-16">
       {/* Section Title */}
-      <h2 className="text-3xl font-bold text-gray-900 text-center mb-10">
+      <h2 className="text-3xl font-bold text-hometext text-center mb-10">
         The Science behind Mindshine
       </h2>
 

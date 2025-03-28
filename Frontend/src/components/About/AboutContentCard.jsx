@@ -17,9 +17,9 @@ const AboutContentCard = ({ image, title, description, reverse }) => {
       </div>
 
       {/* Content */}
-      <div className="md:w-3/5">
-        <h2 className="text-2xl md:text-3xl font-bold text-gray-900">{title}</h2>
-        <p className="text-gray-700 mt-4 leading-relaxed">{description}</p>
+      <div className="md:w-3/5 ">
+        <h2 className="text-2xl md:text-3xl  font-bold text-hometext">{title}</h2>
+        <p className=" text-xl text-content mt-4 leading-relaxed">{description}</p>
       </div>
     </div>
   );
