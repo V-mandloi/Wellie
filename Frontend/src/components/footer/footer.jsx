@@ -8,8 +8,8 @@ import Social4 from "../../assets/Social4.png"
 
 const Footer = () => {
     return (
-      <footer className="bg-[#EDEDED] py-10 border-t">
-        <div className="container mx-auto px-6 md:px-12 lg:px-24">
+      <footer className="bg-[#EDEDED] py-10 border-t md:justify-center md:items-center text-center ">
+        <div className="container mx-auto px-6 md:px-12 lg:px-24 md:justify-center md:items-center">
           <div className="grid grid-cols-1 md:grid-cols-4 gap-8 text-gray-700">
             
             {/* Left Section */}
@@ -21,7 +21,7 @@ const Footer = () => {
                 Made with <span className="text-blue-500 font-semibold">by Designing World</span>.
               </p> */}
               {/* Social Icons */}
-              <div className="flex space-x-3 mt-4">
+              <div className="flex space-x-3 mt-4 justify-center items-center">
                     <img src={Social1} alt="Facebook" className="w-6 h-6 cursor-pointer filter invert" />
                     <img src={Social2} alt="Pinterest" className="w-6 h-6 cursor-pointer filter invert" />
                     <img src={Social3} alt="Skype" className="w-6 h-6 cursor-pointer filter invert" />
@@ -48,7 +48,7 @@ const Footer = () => {
                 <li><a href="#" className="hover:text-[#0077b6]">Help</a></li>
                 <li><a href="#" className="hover:text-[#0077b6]">Support</a></li>
                 <li><a href="/privacy" className="hover:text-[#0077b6]">Privacy Policy</a></li>
-                <li><a href="/term" className="hover:text-[#0077b6]">Term & Conditions</a></li>
+                <li><a href="/terms" className="hover:text-[#0077b6]">Term & Conditions</a></li>
                 
               </ul>
             </div>
