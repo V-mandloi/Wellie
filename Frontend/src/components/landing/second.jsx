@@ -23,14 +23,17 @@ const PhilosophySection = () => {
           <CheckmarkText text="Live with uncertainty" />
           <CheckmarkText text="Reduce stress" />
         </div>
-        <div className="flex justify-center items-center relative">
-          <div className="w-44 sm:w-40 md:w-36 lg:w-52 absolute -left-24 sm:-left-28 md:-left-32 lg:-left-36">
+        <div className="flex justify-center items-center relative group">
+          {/* First Image */}
+          <div className="w-44 sm:w-40 md:w-36 lg:w-52 absolute -left-24 sm:-left-28 md:-left-32 lg:-left-36 transition-transform duration-300 group-hover:-translate-x-12">
             <img
               src={home}
               alt="Mindfulness"
               className="rounded-2xl shadow-lg w-full border-black border-2"
             />
           </div>
+
+          {/* Center Image */}
           <div className="w-48 sm:w-44 md:w-40 lg:w-56 relative z-10">
             <img
               src={search}
@@ -38,7 +41,9 @@ const PhilosophySection = () => {
               className="rounded-2xl shadow-lg w-full border-black border-2"
             />
           </div>
-          <div className="w-44 sm:w-40 md:w-36 lg:w-52 absolute -right-24 sm:-right-28 md:-right-32 lg:-right-36">
+
+          {/* Third Image */}
+          <div className="w-44 sm:w-40 md:w-36 lg:w-52 absolute -right-24 sm:-right-28 md:-right-32 lg:-right-36 transition-transform duration-300 group-hover:translate-x-12">
             <img
               src={profile}
               alt="Relaxation"

@@ -3,11 +3,15 @@ import { FaApple, FaGooglePlay, FaDesktop } from "react-icons/fa";
 import TextBlock from "../smallComponents/heading&subtitle";
 import QR from "../../assets/QR.png";
 
-const StoreButton = ({ icon, label, link }) => {
+const StoreButton = ({ icon, label, link, isBlack }) => {
   return (
     <a
       href={link}
-      className="flex items-center justify-center gap-3 w-full sm:w-80 px-5 py-3 text-lg font-medium bg-white rounded-full shadow-md hover:shadow-lg transition duration-300"
+      className={`flex items-center justify-center gap-3 w-full sm:w-80 px-5 py-3 text-lg font-medium rounded-full shadow-md hover:shadow-lg transition duration-300 ${
+        isBlack
+          ? "bg-hometext text-white hover:bg-secondary hover:text-black"
+          : "bg-secondary text-black hover:bg-hometext hover:text-white"
+      }`}
     >
       {icon}
       {label}
@@ -27,11 +31,17 @@ const AppDownloadSection = () => {
 
       <div className="flex flex-col lg:flex-row items-center justify-center lg:justify-evenly w-full max-w-6xl mt-6 sm:mt-8 gap-6 sm:gap-8">
         <div className="flex flex-col gap-3 sm:gap-4 w-full sm:w-auto text-hometext">
-          <StoreButton icon={<FaApple />} label="Apple App Store" link="#" />
+          <StoreButton
+            icon={<FaApple />}
+            label="Apple App Store"
+            link="#"
+            isBlack={true}
+          />
           <StoreButton
             icon={<FaGooglePlay />}
             label="Google Play Store"
             link="#"
+            isBlack={false}
           />
         </div>
 

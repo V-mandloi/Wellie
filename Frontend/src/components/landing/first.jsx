@@ -1,6 +1,4 @@
 import { FaApple, FaGooglePlay } from "react-icons/fa";
-import loginimage1 from "../../assets/loginimage1.png";
-import loginimage2 from "../../assets/loginimage2.png";
 import logo from "../../assets/logo.png";
 import started from "../../assets/started.jpeg";
 import home from "../../assets/home.jpeg";
@@ -40,7 +38,7 @@ export default function HealioLanding() {
 
           <div className="flex justify-center mt-6 w-full">
             <div className="flex flex-row space-x-3">
-              <button className="bg-hometext text-white flex items-center px-4 py-2 text-xs rounded-lg">
+              <button className="bg-hometext text-white hover:bg-secondary hover:text-black flex items-center px-4 py-2 text-xs rounded-lg">
                 <FaApple className="text-lg mr-2" />
                 <div className="flex flex-col items-start leading-tight">
                   <span className="text-[10px]">Download on the</span>
@@ -48,7 +46,7 @@ export default function HealioLanding() {
                 </div>
               </button>
 
-              <button className="border border-black-700 text-content flex items-center px-4 py-2 text-xs rounded-lg">
+              <button className="bg-secondary border border-black-700 text-content flex items-center px-4 py-2 text-xs rounded-lg hover:bg-hometext hover:text-white">
                 <FaGooglePlay className="text-lg mr-2" />
                 <div className="flex flex-col items-start leading-tight">
                   <span className="text-[10px]">Get it on</span>
@@ -59,15 +57,18 @@ export default function HealioLanding() {
           </div>
         </div>
 
-        <div className="flex flex-row items-center space-y-12 space-x-7">
-          <div className="w-54 sm:w-45 md:w-30 lg:w-60">
+        <div className="flex flex-row items-center space-y-20 -space-x-10 group">
+          {/* First Image */}
+          <div className="w-54 sm:w-45 md:w-30 lg:w-60 transition-transform duration-300">
             <img
               src={started}
               alt="Mindfulness"
               className="rounded-2xl shadow-lg w-full border-black border-2"
             />
           </div>
-          <div className="w-54 sm:w-45 md:w-30 lg:w-60">
+
+          {/* Second Image - Moves Right on Hover */}
+          <div className="w-54 sm:w-45 md:w-30 lg:w-60 transition-transform duration-300 group-hover:translate-x-12">
             <img
               src={signup}
               alt="Meditation"
