@@ -9,7 +9,7 @@ import img3 from "../../assets/img3.jpg";
 const contentData = [
   {
     image: img1,
-    title: "What is Mindshine?",
+    title: "What is Wellie?",
     description:
       "Mindshine is a digital mental health platform that helps you train your mind like a muscle and feel better. Our 3-pillar approach will help you with powerful habit-forming exercises, a peer-to-peer support community, and the education necessary to understand the science and principles behind the methods via audio, video, and written articles.",
     reverse: false,

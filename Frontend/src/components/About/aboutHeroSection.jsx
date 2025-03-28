@@ -3,7 +3,7 @@ import HeroImg from "../../assets/About.jpg";
 const HeroSection = () => {
   return (
     <>
-    <div className="bg-primary font-custom">
+    <div className=" font-custom">
       <section
         className="min-h-screen bg-cover bg-center bg-no-repeat py-16 px-6 md:px-12 lg:px-24 flex items-center"
         style={{ backgroundImage: `url(${HeroImg})` }}

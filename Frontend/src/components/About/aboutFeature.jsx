@@ -16,7 +16,7 @@ const features = [
     image: featureImg2,
     title: "Testing",
     description:
-      "Our team holds weekly meetings where we test all of our exercises and courses, give feedback, and make improvements to ensure that they are the best that they can be.",
+    "Wellie offers meditation exercises, stress management tools, and habit tracking to boost your mental and physical well-being",
   },
 ];
 

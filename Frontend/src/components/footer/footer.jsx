@@ -17,9 +17,9 @@ const Footer = () => {
               <p className="text-sm">
                 Appland is completely creative, lightweight, clean app landing page.
               </p>
-              <p className="text-sm mt-2">
+              {/* <p className="text-sm mt-2">
                 Made with <span className="text-blue-500 font-semibold">by Designing World</span>.
-              </p>
+              </p> */}
               {/* Social Icons */}
               <div className="flex space-x-3 mt-4">
                     <img src={Social1} alt="Facebook" className="w-6 h-6 cursor-pointer filter invert" />
@@ -34,10 +34,10 @@ const Footer = () => {
             <div>
               <h3 className="font-semibold text-gray-900 mb-3">About</h3>
               <ul className="space-y-2 text-sm">
-                <li><a href="#" className="hover:text-[#aabac3]">About Us</a></li>
-                <li><a href="#" className="hover:text-[#aabac3]">Corporate Sale</a></li>
-                <li><a href="#" className="hover:text-[#aabac3]">Terms & Policy</a></li>
-                <li><a href="#" className="hover:text-[#aabac3]">Community</a></li>
+                <li><a href="/about" className="hover:text-[#aabac3]">About Us</a></li>
+                
+                <li><a href="/terms" className="hover:text-[#aabac3]">Terms & Policy</a></li>
+                {/* <li><a href="#" className="hover:text-[#aabac3]">Community</a></li> */}
               </ul>
             </div>
   
@@ -47,9 +47,9 @@ const Footer = () => {
               <ul className="space-y-2 text-sm">
                 <li><a href="#" className="hover:text-[#0077b6]">Help</a></li>
                 <li><a href="#" className="hover:text-[#0077b6]">Support</a></li>
-                <li><a href="#" className="hover:text-[#0077b6]">Privacy Policy</a></li>
-                <li><a href="#" className="hover:text-[#0077b6]">Term & Conditions</a></li>
-                <li><a href="#" className="hover:text-[#0077b6]">Help & Support</a></li>
+                <li><a href="/privacy" className="hover:text-[#0077b6]">Privacy Policy</a></li>
+                <li><a href="/term" className="hover:text-[#0077b6]">Term & Conditions</a></li>
+                
               </ul>
             </div>
   

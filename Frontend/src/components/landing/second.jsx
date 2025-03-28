@@ -7,16 +7,12 @@ import TextBlock from "../smallComponents/heading&subtitle";
 const PhilosophySection = () => {
   return (
     <div className="flex flex-col items-center justify-center bg-primary py-16 px-4">
-      {/* Title Section */}
-
       <TextBlock
-        title="The Healio Philosophy"
+        title="The Wellie Philosophy"
         subtitle="Life is noisy (and that's the way it’s supposed to be!) Nurture your inner quiet with Healio."
       />
 
-      {/* Content Section */}
       <div className="relative flex flex-col lg:flex-row items-center justify-center max-w-6xl w-full">
-        {/* Left Side Items */}
         <div className="space-y-10 lg:absolute lg:left-0 lg:top-1/2 lg:-translate-y-1/2">
           <CheckmarkText text="Find peace" />
           <CheckmarkText text="Live with uncertainty" />
@@ -46,7 +42,6 @@ const PhilosophySection = () => {
           </div>
         </div>
 
-        {/* Right Side Items */}
         <div className="space-y-10 lg:absolute lg:right-0 lg:top-1/2 lg:-translate-y-1/2">
           <CheckmarkText text="Embrace challenges" />
           <CheckmarkText text="Be mindful" />

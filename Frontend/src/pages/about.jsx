@@ -12,10 +12,7 @@ export default function Hero() {
       <AboutHeroSection />
       <AboutContent/>
       <AboutFeature/>
-      <AboutSupport/>
-
-      
-
+      <AboutSupport/>  
     </div>
   );
 }
