@@ -1,9 +1,9 @@
 
 import React from "react";
-import Social1 from "../../../public/Social1.png"
-import Social2 from "../../../public/Social2.png"
-import Social3 from "../../../public/Social3.png"
-import Social4 from "../../../public/Social4.png"
+import Social1 from "../../assets/Social1.png"
+import Social2 from "../../assets/Social2.png"
+import Social3 from "../../assets/Social3.png"
+import Social4 from "../../assets/Social4.png"
 
 
 const Footer = () => {
@@ -34,10 +34,10 @@ const Footer = () => {
             <div>
               <h3 className="font-semibold text-gray-900 mb-3">About</h3>
               <ul className="space-y-2 text-sm">
-                <li><a href="#" className="hover:text-[#0077b6]">About Us</a></li>
-                <li><a href="#" className="hover:text-[#0077b6]">Corporate Sale</a></li>
-                <li><a href="#" className="hover:text-[#0077b6]">Terms & Policy</a></li>
-                <li><a href="#" className="hover:text-[#0077b6]">Community</a></li>
+                <li><a href="#" className="hover:text-[#aabac3]">About Us</a></li>
+                <li><a href="#" className="hover:text-[#aabac3]">Corporate Sale</a></li>
+                <li><a href="#" className="hover:text-[#aabac3]">Terms & Policy</a></li>
+                <li><a href="#" className="hover:text-[#aabac3]">Community</a></li>
               </ul>
             </div>
   
