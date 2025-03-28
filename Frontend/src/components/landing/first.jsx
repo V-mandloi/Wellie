@@ -16,7 +16,7 @@ export default function HealioLanding() {
         <div className="flex flex-col items-center sm:items-start">
           <header>
             <div className="flex justify-center sm:justify-center mb-4">
-              <img src={logo} alt="Healio Logo" className="w-20 h-25" />
+              <img src={logo} alt="Healio Logo" className="w-40 h-40" />
             </div>
             <h1 className="text-3xl sm:text-4xl md:text-5xl lg:text-6xl font-bold text-hometext">
               Wellie

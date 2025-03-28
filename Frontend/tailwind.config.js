@@ -15,6 +15,7 @@ export default {
       },
       fontFamily: {
         custom: ["'Poppins'", "sans-serif"],
+        neucha: ["neuchaFont", "sans-serif"],
       },
     },
   },

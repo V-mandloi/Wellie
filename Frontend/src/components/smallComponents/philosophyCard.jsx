@@ -24,8 +24,8 @@ const CheckmarkText = ({ text = "Embrace challenges" }) => {
 
       {/* Dynamic Text */}
       <span
-        className="text-hometext text-lg font-medium"
-        style={{ fontFamily: "inherit" }}
+        className="text-hometext text-xl font-neucha"
+        // style={{ fontFamily: "inherit" }}
       >
         {text}
       </span>

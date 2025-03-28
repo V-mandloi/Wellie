@@ -4,3 +4,10 @@
 * {
   font-family: "poppins", "sans-serif";
 }
+
+@font-face {
+  font-family: "neuchaFont";
+  src: url("./assets/neucha.otf") format("opentype");
+  font-weight: normal;
+  font-style: normal;
+}
