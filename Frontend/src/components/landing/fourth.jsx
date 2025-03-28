@@ -18,7 +18,7 @@ const MindshineSection = () => {
             positive thought patterns, build confidence, and become happier
             overall.
           </p>
-          <button className="mt-6 px-6 py-3 md:px-8 md:py-4 bg-hometext text-white font-semibold text-lg rounded-xl shadow-lg hover:bg-teal-700 transition duration-300">
+          <button className="mt-6 px-6 py-3 md:px-8 md:py-4 bg-hometext text-white font-semibold text-lg rounded-xl shadow-lg hover:bg-secondary hover:text-hometext transition duration-300">
             Get the App
           </button>
         </div>
