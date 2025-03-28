@@ -21,7 +21,7 @@ const AppDownloadSection = () => {
       <div className="max-w-2xl text-center">
         <TextBlock
           title="Get clarity and peace of mind, wherever you are."
-          subtitle="Download Reflection.app to start your journey. (It's free!)"
+          subtitle="Download Wellie.app to start your journey. (It's free!)"
         />
       </div>
 
