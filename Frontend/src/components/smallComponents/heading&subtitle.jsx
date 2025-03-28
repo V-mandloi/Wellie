@@ -1,7 +1,7 @@
 const TextBlock = ({ title, subtitle }) => {
   return (
     <div className="flex flex-col items-center justify-center text-center p-6 bg-primary w-2xl">
-      <h2 className="text-2xl sm:text-3xl md:text-4xl font-bold text-hometext">
+      <h2 className="text-2xl sm:text-3xl md:text-4xl font-bold text-hometext ">
         {title}
       </h2>
       <p
