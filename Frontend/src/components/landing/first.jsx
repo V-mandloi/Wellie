@@ -12,11 +12,8 @@ const Button = ({ children, className, ...props }) => (
 export default function HealioLanding() {
   return (
     <div className="bg-primary min-h-screen flex items-center justify-center p-4">
-      {/* Main Layout */}
       <div className="grid grid-cols-1 sm:grid-cols-2 gap-12 w-full max-w-6xl items-center justify-center text-center">
-        {/* Left Side - Text & Buttons */}
         <div className="flex flex-col items-center sm:items-start">
-          {/* Header Section */}
           <header>
             <div className="flex justify-center sm:justify-center mb-4">
               <img src={logo} alt="Healio Logo" className="w-20 h-25" />
@@ -32,7 +29,6 @@ export default function HealioLanding() {
             </p>
           </header>
 
-          {/* App Store Buttons */}
           <div className="flex justify-center mt-6 w-full">
             <div className="flex flex-row space-x-3">
               <button className="bg-hometext text-white flex items-center px-4 py-2 text-xs rounded-lg">
@@ -54,7 +50,6 @@ export default function HealioLanding() {
           </div>
         </div>
 
-        {/* Right Side - Images */}
         <div className="flex flex-row items-center space-y-12 space-x-7">
           <div className="w-54 sm:w-45 md:w-30 lg:w-60">
             <img
