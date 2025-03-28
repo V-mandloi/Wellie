@@ -4,7 +4,7 @@ export default function BenefitCard({ icon, title, description }) {
       className="flex flex-col items-center text-center mx-auto 
         max-w-xs sm:max-w-xs md:max-w-sm lg:max-w-sm xl:max-w-sm"
     >
-      <div className="w-16 h-16 flex items-center justify-center bg-hometext rounded-full mb-4">
+      <div className="w-16 h-16 flex items-center justify-center bg-stone-900 hover:bg-placeholder rounded-full mb-4">
         {icon}
       </div>
       <h3 className="text-lg font-semibold text-gray-900">{title}</h3>

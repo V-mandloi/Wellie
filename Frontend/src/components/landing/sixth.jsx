@@ -26,7 +26,7 @@ const AppDownloadSection = () => {
       </div>
 
       <div className="flex flex-col lg:flex-row items-center justify-center lg:justify-evenly w-full max-w-6xl mt-6 sm:mt-8 gap-6 sm:gap-8">
-        <div className="flex flex-col gap-3 sm:gap-4 w-full sm:w-auto">
+        <div className="flex flex-col gap-3 sm:gap-4 w-full sm:w-auto text-hometext">
           <StoreButton icon={<FaApple />} label="Apple App Store" link="#" />
           <StoreButton
             icon={<FaGooglePlay />}
@@ -37,7 +37,7 @@ const AppDownloadSection = () => {
 
         <div className="flex flex-col items-center bg-white py-3 sm:py-4 px-4 sm:px-6 rounded-2xl shadow-md w-full sm:w-auto">
           <img src={QR} alt="QR Code" className="w-20 sm:w-24 h-20 sm:h-24" />
-          <p className="text-xs sm:text-sm text-gray-600 mt-2 text-center px-4 sm:px-5">
+          <p className="text-xs sm:text-sm text-placeholder mt-2 text-center px-4 sm:px-5">
             QR Code opens app on your phone.
           </p>
         </div>
