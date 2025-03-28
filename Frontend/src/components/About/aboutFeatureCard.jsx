@@ -2,7 +2,7 @@ import React from "react";
 
 const FeatureCard = ({ image, title, description }) => {
   return (
-    <div className="bg-white shadow-lg rounded-lg p-6 text-center w-full max-w-sm">
+    <div className="bg-white shadow-lg rounded-lg p-6 text-center w-full max-w-sm h-[350px] flex flex-col justify-between">
       {/* Image Wrapper with Color Overlay */}
       <div className="relative w-full h-40 flex justify-center items-center">
         <img
@@ -14,8 +14,10 @@ const FeatureCard = ({ image, title, description }) => {
       </div>
 
       {/* Title & Description */}
-      <h3 className="text-xl font-semibold text-gray-800 mt-4">{title}</h3>
-      <p className="text-gray-600 mt-2">{description}</p>
+      <div className="flex flex-col items-center">
+        <h3 className="text-xl font-semibold text-gray-800 mt-4">{title}</h3>
+        <p className="text-gray-600 mt-2">{description}</p>
+      </div>
     </div>
   );
 };
