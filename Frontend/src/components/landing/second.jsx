@@ -3,6 +3,11 @@ import CheckmarkText from "../smallComponents/philosophyCard";
 import loginimage1 from "../../assets/loginimage1.png";
 import loginimage2 from "../../assets/loginimage2.png";
 import TextBlock from "../smallComponents/heading&subtitle";
+import started from "../../assets/started.jpeg";
+import home from "../../assets/home.jpeg";
+import search from "../../assets/search.jpeg";
+import profile from "../../assets/profile.jpeg";
+import signup from "../../assets/signup.jpeg";
 
 const PhilosophySection = () => {
   return (
@@ -21,23 +26,23 @@ const PhilosophySection = () => {
         <div className="flex justify-center items-center relative">
           <div className="w-44 sm:w-40 md:w-36 lg:w-52 absolute -left-24 sm:-left-28 md:-left-32 lg:-left-36">
             <img
-              src={loginimage1}
+              src={home}
               alt="Mindfulness"
-              className="rounded-2xl shadow-lg w-full"
+              className="rounded-2xl shadow-lg w-full border-black border-2"
             />
           </div>
           <div className="w-48 sm:w-44 md:w-40 lg:w-56 relative z-10">
             <img
-              src={loginimage2}
+              src={search}
               alt="Meditation"
-              className="rounded-2xl shadow-lg w-full"
+              className="rounded-2xl shadow-lg w-full border-black border-2"
             />
           </div>
           <div className="w-44 sm:w-40 md:w-36 lg:w-52 absolute -right-24 sm:-right-28 md:-right-32 lg:-right-36">
             <img
-              src={loginimage1}
+              src={profile}
               alt="Relaxation"
-              className="rounded-2xl shadow-lg w-full"
+              className="rounded-2xl shadow-lg w-full border-black border-2"
             />
           </div>
         </div>

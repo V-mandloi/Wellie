@@ -7,7 +7,7 @@ const StoreButton = ({ icon, label, link }) => {
   return (
     <a
       href={link}
-      className="flex items-center gap-3 w-full sm:w-80 px-5 py-3 text-lg font-medium bg-white rounded-full shadow-md hover:shadow-lg transition duration-300"
+      className="flex items-center justify-center gap-3 w-full sm:w-80 px-5 py-3 text-lg font-medium bg-white rounded-full shadow-md hover:shadow-lg transition duration-300"
     >
       {icon}
       {label}
@@ -17,16 +17,16 @@ const StoreButton = ({ icon, label, link }) => {
 
 const AppDownloadSection = () => {
   return (
-    <div className="flex flex-col items-center px-10 py-16 w-full bg-primary">
-      <div className="max-w-2xl text-center">
+    <div className="flex flex-col items-center px-6 sm:px-10 py-12 sm:py-16 w-full bg-primary">
+      <div className="max-w-2xl text-center px-4">
         <TextBlock
           title="Get clarity and peace of mind, wherever you are."
-          subtitle="Download Reflection.app to start your journey. (It's free!)"
+          subtitle="Download Wellie.app to start your journey. (It's free!)"
         />
       </div>
 
-      <div className="flex flex-col lg:flex-row items-center justify-evenly w-full max-w-6xl mt-8">
-        <div className="flex flex-col gap-4 w-full lg:w-auto">
+      <div className="flex flex-col lg:flex-row items-center justify-center lg:justify-evenly w-full max-w-6xl mt-6 sm:mt-8 gap-6 sm:gap-8">
+        <div className="flex flex-col gap-3 sm:gap-4 w-full sm:w-auto">
           <StoreButton icon={<FaApple />} label="Apple App Store" link="#" />
           <StoreButton
             icon={<FaGooglePlay />}
@@ -35,9 +35,9 @@ const AppDownloadSection = () => {
           />
         </div>
 
-        <div className="flex flex-col items-center bg-white py-2 rounded-2xl shadow-md">
-          <img src={QR} alt="QR Code" className="w-24 h-24" />
-          <p className="text-sm text-gray-600 mt-2 text-center px-5">
+        <div className="flex flex-col items-center bg-white py-3 sm:py-4 px-4 sm:px-6 rounded-2xl shadow-md w-full sm:w-auto">
+          <img src={QR} alt="QR Code" className="w-20 sm:w-24 h-20 sm:h-24" />
+          <p className="text-xs sm:text-sm text-gray-600 mt-2 text-center px-4 sm:px-5">
             QR Code opens app on your phone.
           </p>
         </div>
