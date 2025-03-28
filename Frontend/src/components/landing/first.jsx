@@ -2,6 +2,11 @@ import { FaApple, FaGooglePlay } from "react-icons/fa";
 import loginimage1 from "../../assets/loginimage1.png";
 import loginimage2 from "../../assets/loginimage2.png";
 import logo from "../../assets/logo.png";
+import started from "../../assets/started.jpeg";
+import home from "../../assets/home.jpeg";
+import search from "../../assets/search.jpeg";
+import profile from "../../assets/profile.jpeg";
+import signup from "../../assets/signup.jpeg";
 
 const Button = ({ children, className, ...props }) => (
   <button className={`px-6 py-3 rounded-lg shadow-lg ${className}`} {...props}>
@@ -53,16 +58,16 @@ export default function HealioLanding() {
         <div className="flex flex-row items-center space-y-12 space-x-7">
           <div className="w-54 sm:w-45 md:w-30 lg:w-60">
             <img
-              src={loginimage1}
+              src={started}
               alt="Mindfulness"
-              className="rounded-2xl shadow-lg w-full"
+              className="rounded-2xl shadow-lg w-full border-black border-2"
             />
           </div>
           <div className="w-54 sm:w-45 md:w-30 lg:w-60">
             <img
-              src={loginimage2}
+              src={signup}
               alt="Meditation"
-              className="rounded-2xl shadow-lg w-full"
+              className="rounded-2xl shadow-lg w-full border-black border-2"
             />
           </div>
         </div>
