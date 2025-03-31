@@ -1,9 +1,6 @@
 import { FaApple, FaGooglePlay } from "react-icons/fa";
 import logo from "../../assets/logo.png";
 import started from "../../assets/started.jpeg";
-import home from "../../assets/home.jpeg";
-import search from "../../assets/search.jpeg";
-import profile from "../../assets/profile.jpeg";
 import signup from "../../assets/signup.jpeg";
 
 const Button = ({ children, className, ...props }) => (
@@ -14,8 +11,26 @@ const Button = ({ children, className, ...props }) => (
 
 export default function HealioLanding() {
   return (
-    <div className="bg-primary min-h-screen flex items-center justify-center p-4">
-      <div className="grid grid-cols-1 sm:grid-cols-2 gap-12 w-full max-w-6xl items-center justify-center text-center">
+    <div className="relative bg-primary min-h-screen flex items-center justify-center p-4 overflow-hidden">
+      <div
+        className="absolute top-0 -left-20 w-[500px] h-[500px] bg-red-100/30 border-[3px] border-green-300/50 opacity-80 animate-float"
+        style={{
+          clipPath:
+            "polygon(25% 15%, 75% 5%, 95% 40%, 85% 80%, 45% 95%, 10% 65%)",
+          borderRadius: "50% 40% 60% 45% / 40% 60% 50% 55%",
+        }}
+      ></div>
+
+      <div
+        className="absolute bottom-20 right-0 w-[400px] h-[400px] bg-red-200/30 border-[3px] border-green-300/50 opacity-80 animate-float-slow"
+        style={{
+          clipPath:
+            "polygon(20% 10%, 80% 15%, 95% 50%, 75% 85%, 35% 95%, 5% 50%)",
+          borderRadius: "45% 55% 35% 65% / 50% 40% 60% 50%",
+        }}
+      ></div>
+
+      <div className="grid grid-cols-1 sm:grid-cols-2 gap-12 w-full max-w-6xl items-center justify-center text-center relative z-10">
         <div className="flex flex-col items-center sm:items-start">
           <header>
             <div className="flex justify-center sm:justify-center mb-4">
