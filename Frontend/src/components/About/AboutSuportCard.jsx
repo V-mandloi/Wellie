@@ -3,7 +3,8 @@ import AboutButton from "./AboutButton";
 
 const SupportCard = ({ image, title, description, note, buttonText, buttonLink }) => {
   return (
-    <div className="bg-white p-6 rounded-lg shadow-md w-full md:w-[350px] h-full flex flex-col justify-between border">
+    <div className="bg-white p-6 rounded-lg shadow-md w-full md:w-[350px] h-full flex flex-col justify-between border 
+      transition-transform duration-300 hover:-translate-y-2 hover:shadow-lg active:scale-[0.98]">
       {/* Header Section */}
       <div>
         <div className="flex items-center gap-4">
