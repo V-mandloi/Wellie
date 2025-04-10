@@ -1,10 +1,10 @@
 export default function PrivacyPolicy() {
   return (
-    <div className="flex flex-col items-center min-h-screen bg-gray-100 p-4">
+    <div className="flex flex-col items-center min-h-screen bg-primary p-4">
       <h2 className="text-2xl font-bold text-center mb-4">Privacy Policy</h2>
 
       {/* Removed the white box wrapper */}
-      <div className="w-full max-w-3xl">
+      <div className="w-full max-w-4xl">
         <p className="text-sm text-gray-700">
           Welcome to Wellie! Your privacy is our priority, and we are dedicated
           to safeguarding your personal information. This Privacy Policy

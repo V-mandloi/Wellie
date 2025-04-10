@@ -4,7 +4,7 @@ export default function TermsAndConditions() {
       <h2 className="text-2xl font-bold text-center mb-4 text-hometext">
         Terms & Conditions
       </h2>
-      <div className="h-auto w-full max-w-3xl overflow-y-auto border p-4 bg-white shadow-lg rounded-lg">
+      <div className="w-full max-w-4xl">
         <p className="text-sm text-gray-700">
           <strong>Last Updated: [Insert Date]</strong>
           <br />
