@@ -1,4 +1,5 @@
 import React from "react";
+import AboutButton from "./AboutButton";
 
 const SupportCard = ({ image, title, description, note, buttonText, buttonLink }) => {
   return (
@@ -26,12 +27,13 @@ const SupportCard = ({ image, title, description, note, buttonText, buttonLink }
       </div>
 
       {/* Button */}
-      <a
-        href={buttonLink}
-        className="block bg-hometext text-white hover:bg-secondary hover:text-black text-base mt-6 py-2 px-4 rounded-md font-semibold text-center transition"
-      >
-        {buttonText}
-      </a>
+      <div className="mt-6 flex justify-center">
+        <AboutButton
+          label={buttonText}
+          link={buttonLink}
+          isBlack={title === "Chat"} // Custom logic to decide black or not
+        />
+      </div>
     </div>
   );
 };
