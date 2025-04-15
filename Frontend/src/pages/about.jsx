@@ -10,7 +10,7 @@ import AboutSupport from "../components/About/AboutSuport";
 
 export default function Hero() {
   return (
-    <div>
+    <div >
       <AboutHeroSection />
       {/* <AboutContent/> */}
       {/* <AboutFeature/> */}
