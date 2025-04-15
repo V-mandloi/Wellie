@@ -3,9 +3,11 @@ import Social1 from "../../assets/Social1.png";
 import Social2 from "../../assets/Social2.png";
 import Social3 from "../../assets/Social3.png";
 import Social4 from "../../assets/Social4.png";
+import Footerend from "./footerend";
 
 const Footer = () => {
   return (
+    <>
     <footer className="bg-[#EDEDED] py-10 border-t md:justify-center md:items-center text-center ">
       <div className="container mx-auto px-6 md:px-12 lg:px-24 md:justify-center md:items-center">
         <div className="grid grid-cols-1 md:grid-cols-4 gap-8 text-gray-700">
@@ -116,8 +118,13 @@ const Footer = () => {
             </ul>
           </div>
         </div>
+
       </div>
+      
     </footer>
+    <hr className="text-gray-400 "/>
+    <Footerend/>
+    </>
   );
 };
 
