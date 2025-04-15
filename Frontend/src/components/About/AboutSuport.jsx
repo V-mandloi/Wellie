@@ -24,7 +24,7 @@ const supportOptions = [
 
 const ContactSupport = () => {
   return (
-    <div className="font-custom bg-primary flex flex-col items-center justify-center py-16 px-4">
+    <div className="font-custom bg-primary flex flex-col items-center justify-center  px-4">
       <section className="max-w-6xl mx-auto px-6 md:px-16 py-20 space-y-16">
         {/* Title */}
         <h2 className="text-2xl md:text-3xl font-bold text-hometext text-center mb-10">

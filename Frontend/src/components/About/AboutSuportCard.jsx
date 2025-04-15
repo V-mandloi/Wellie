@@ -1,9 +1,9 @@
 import React from "react";
-import AboutButton from "./AboutButton";
+
 
 const SupportCard = ({ image, title, description, note, buttonText, buttonLink }) => {
   return (
-    <div className="bg-white p-6 rounded-lg shadow-md w-full md:w-[350px] h-full flex flex-col justify-between border 
+    <div className="bg-white p-2 rounded-lg shadow-md w-full md:w-[350px] h-full flex flex-col justify-between border 
       transition-transform duration-300 hover:-translate-y-2 hover:shadow-lg active:scale-[0.98]">
       {/* Header Section */}
       <div>
@@ -28,13 +28,12 @@ const SupportCard = ({ image, title, description, note, buttonText, buttonLink }
       </div>
 
       {/* Button */}
-      <div className="mt-6 flex justify-center">
-        <AboutButton
-          label={buttonText}
-          link={buttonLink}
-          isBlack={title === "Chat"} // Custom logic to decide black or not
-        />
-      </div>
+      <a
+        href={buttonLink}
+        className="block bg-hometext text-white hover:bg-secondary hover:text-black text-base mt-6 py-2 px-4 rounded-md font-semibold text-center transition"
+      >
+        {buttonText}
+      </a>
     </div>
   );
 };
