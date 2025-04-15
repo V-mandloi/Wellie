@@ -2,7 +2,8 @@ import React from "react";
 
 const FeatureCard = ({ image, title, description }) => {
   return (
-    <div className="bg-white shadow-lg rounded-lg p-6 text-center w-full max-w-sm h-[350px] flex flex-col justify-between">
+    <div className="bg-white shadow-lg rounded-lg p-6 text-center w-full max-w-sm h-[350px] flex flex-col justify-between 
+      transition-transform duration-300 hover:-translate-y-2 hover:shadow-xl active:scale-[0.98]">
       {/* Image Wrapper with Color Overlay */}
       <div className="relative w-full h-40 flex justify-center items-center">
         <img

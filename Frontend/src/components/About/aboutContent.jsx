@@ -33,7 +33,8 @@ const contentData = [
 const AboutContent = () => {
   return (
     <div className="bg-primary font-custom">
-    <section className="max-w-6xl mx-auto px-6 md:px-16 py-20 space-y-16">
+    <section id="about-content"
+    className="max-w-6xl mx-auto px-6 md:px-16 py-20 space-y-16">
       {contentData.map((content, index) => (
         <AboutContentCard key={index} {...content} />
       ))}

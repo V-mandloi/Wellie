@@ -1,8 +1,10 @@
 export default function PrivacyPolicy() {
   return (
-    <div className="flex flex-col items-center min-h-screen bg-gray-100 p-4">
+    <div className="flex flex-col items-center min-h-screen bg-primary p-4">
       <h2 className="text-2xl font-bold text-center mb-4">Privacy Policy</h2>
-      <div className="h-auto w-full max-w-3xl overflow-y-auto border p-4 bg-white shadow-lg rounded-lg">
+
+      {/* Removed the white box wrapper */}
+      <div className="w-full max-w-4xl">
         <p className="text-sm text-gray-700">
           Welcome to Wellie! Your privacy is our priority, and we are dedicated
           to safeguarding your personal information. This Privacy Policy
@@ -40,18 +42,14 @@ export default function PrivacyPolicy() {
           manage notification preferences.
         </p>
 
-        <h3 className="font-semibold mt-4">
-          5. Third-Party Services & Integrations
-        </h3>
+        <h3 className="font-semibold mt-4">5. Third-Party Services & Integrations</h3>
         <p className="text-sm text-gray-700">
           We integrate with trusted third-party services for analytics, cloud
           storage, and bug reporting. All services comply with global privacy
           laws.
         </p>
 
-        <h3 className="font-semibold mt-4">
-          6. Cookies & Tracking Technologies
-        </h3>
+        <h3 className="font-semibold mt-4">6. Cookies & Tracking Technologies</h3>
         <p className="text-sm text-gray-700">
           Wellie does not use invasive tracking. We may use essential cookies
           and performance tracking to improve app stability and user experience.
@@ -71,18 +69,14 @@ export default function PrivacyPolicy() {
           will remove it immediately.
         </p>
 
-        <h3 className="font-semibold mt-4">
-          9. Compliance with Global Privacy Laws
-        </h3>
+        <h3 className="font-semibold mt-4">9. Compliance with Global Privacy Laws</h3>
         <p className="text-sm text-gray-700">
           We comply with GDPR, CCPA, PDPA, and other data protection
           regulations. Users have the right to access, correct, or delete their
           data.
         </p>
 
-        <h3 className="font-semibold mt-4">
-          10. Changes to This Privacy Policy
-        </h3>
+        <h3 className="font-semibold mt-4">10. Changes to This Privacy Policy</h3>
         <p className="text-sm text-gray-700">
           We may update this Privacy Policy periodically. Any changes will be
           communicated through in-app notifications and email (if subscribed).

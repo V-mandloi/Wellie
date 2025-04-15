@@ -1,38 +1,74 @@
 import React from "react";
-import HeroImg from "../../assets/About.jpg";
+import Hero from "../../assets/hero.png";
 const HeroSection = () => {
   return (
-    <>
-    <div className=" font-custom">
-      <section
-        className="min-h-screen bg-cover bg-center bg-no-repeat py-16 px-6 md:px-12 lg:px-24 flex items-center"
-        style={{ backgroundImage: `url(${HeroImg})` }}
-      >
-        <div className="max-w-6xl mx-auto flex flex-col md:flex-row items-center gap-20  space-y-6">
-          {/* Left Content */}
-          <div className="md:w-1/2 text-center md:text-left space-y-10">
-            <h2 className="text-4xl font-bold text-hometext mb-4">
-              <span className="text:underline text-6xl">ABOUT</span> US
-            </h2>
+    
+    <div className=" font-custom bg-primary">
+    <div className="flex flex-col md:flex-row items-center mr-10 ml-5 justify-center gap-10 py-5 bg-primary px-4 md:px-12">
+    
+    <div
+        className="absolute top-0 -left-20 w-[500px] h-[500px] py-52 bg-red-100/30 border-[3px] border-green-300/50 opacity-80 animate-float "
+        style={{
+          clipPath:
+            "polygon(25% 15%, 75% 5%, 95% 40%, 85% 80%, 45% 95%, 10% 65%)",
+          borderRadius: "50% 40% 60% 45% / 40% 60% 50% 55%",
+        }}
+      ></div>
 
-            <p className="text-content mb-15 text-2xl ">
-              Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
-              eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut
-              enim ad minim veniam, quis nostrud exercitation.
-            </p>
-            <br />
-            <a
-              href="#"
-              className="bg-hometext text-white px-6 py-3 rounded-lg shadow-md m text-sm font-semibold mt-10 transition hover:bg-stone-100 hover:text-black"
-            >
-              Learn More
-            </a>
-          </div>
-        </div>
-      </section>
+
+    
+    <div className="flex flex-col  gap-6 md:w-1/2">
+                 <h1 className="text-5xl font-extrabold text-hometext">About Us</h1>
+                  <p className="font-poppins text-lg text-gray-700 mt-2">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Consequuntur dignissimos vel blanditiis dicta cumque maiores recusandae tempore dolore, fugit corporis!</p>
+                </div>
+
+                {/* <div className="w-full sm:w-[45%] py-10 flex justify-center"> */}
+ 
+                {/* <div className="w-full sm:w-[45%] py-10 flex justify-center relative"> */}
+
+        {/* shadow with float image */}
+       
+        <div className="w-full sm:w-[45%] py-10 flex justify-center relative">
+  {/* Shadow behind the image */}
+  <div
+    className="absolute w-[150px] h-[150px] bg-black/20 rounded-full blur-[30px] z-0"
+    style={{
+      animation: "float 3s ease-in-out infinite",
+    }}
+  ></div>
+
+  {/* Floating Illustration */}
+  <img
+    src={Hero}
+    alt="Illustration Design"
+    className="z-10"
+    style={{
+      animation: "float 3s ease-in-out infinite",
+    }}
+  />
+</div>
+
+
+      {/* <div className="w-100 sm:w-45 py-10 ">
+              <img
+                src={Hero}
+                alt="Illustration Design"
+                className= ""
+                style={{
+                  animation: "float 3s ease-in-out infinite",
+                }} 
+                 
+              />
+            </div> */}
+         
+                </div>
       </div>
-    </>
+    
   );
 };
 
 export default HeroSection;
+
+
+
+{/* font-poppins text-lg text-gray-700 mt-2 */}
