@@ -1,12 +1,13 @@
 import React from 'react';
+import ContactImg from "../../assets/contactimg.png"
 export default function ContactUs() {
   return (
-    <div className="flex flex-col md:flex-row justify-between bg-primary min-h-screen p-8 md:p-16">
-      <div className="w-full md:w-1/2 flex flex-col justify-center">
-        <p className="text-hometext text-lg mb-2">How can we help you?</p>
-        <h1 className="text-gray-800 text-5xl md:text-6xl font-bold mb-6">Contact us</h1>
+    <div className="flex flex-col md:flex-row justify-center top-0 bg-primary  p-2 md:p-2">
+      <div className="w-full md:w-1/2 flex flex-col ml-12 justify-center">
+        {/* <p className="text-hometext text-lg ">How can we help you?</p> */}
+        <h1 className="text-hometext text-5xl md:text-6xl font-bold ">Contact us</h1>
         <div className="my-4">
-          <p className="text-gray-700 text-lg mb-8">
+          <p className="text-gray-700 text-lg ">
             We're here to help and answer any questions you might have. We look forward to hearing from you!
           </p>
         </div>
@@ -42,28 +43,11 @@ export default function ContactUs() {
         <div className="relative w-64 md:w-80">
           {/* Illustration goes here - using placeholder */}
           <div className="relative">
-            <div className="w-32 h-32 rounded-full bg-orange-200 absolute right-6 top-4"></div>
+            
             <div className="relative z-10">
-              <svg width="280" height="280" viewBox="0 0 280 280" xmlns="http://www.w3.org/2000/svg">
-                <g fill="none" stroke="currentColor" strokeWidth="2">
-                  {/* Simple person with hat illustration */}
-                  <path d="M170,100 Q190,90 200,110 Q210,130 190,150 Q170,170 150,150" stroke="black" fill="none" />
-                  {/* Face */}
-                  <circle cx="160" cy="120" r="40" fill="#FFF" stroke="black" />
-                  {/* Hat */}
-                  <path d="M130,100 Q160,80 190,100 L190,120 L130,120 Z" fill="#FFF" stroke="black" />
-                  <path d="M190,120 Q210,120 210,140" stroke="black" fill="none" />
-                  {/* Speech bubble */}
-                  <rect x="200" y="80" width="60" height="40" rx="5" fill="#FFF" stroke="black" />
-                  <text x="210" y="105" fontSize="16" fontFamily="sans-serif" fontWeight="bold">HELLO</text>
-                  {/* Dots on shirt */}
-                  <circle cx="150" cy="180" r="3" fill="orange" />
-                  <circle cx="170" cy="190" r="3" fill="orange" />
-                  <circle cx="185" cy="175" r="3" fill="orange" />
-                  <path d="M140,170 C145,175 155,175 160,170" stroke="orange" strokeWidth="1" />
-                  <path d="M180,180 C185,185 190,180 195,175" stroke="orange" strokeWidth="1" />
-                </g>
-              </svg>
+             <img
+             src={ContactImg}
+             />
             </div>
           </div>
         </div>

@@ -15,7 +15,7 @@ export default function Hero() {
       {/* <AboutContent/> */}
       {/* <AboutFeature/> */}
       <AboutPage/>
-      <AboutSupport/>  
+      {/* <AboutSupport/>   */}
     </div>
   );
 }
