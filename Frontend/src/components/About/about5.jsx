@@ -3,6 +3,7 @@ import InfoCard from "../../components/About/about2.jsx";
 import StepItem from "../../components/About/about3.jsx";
 import StepsSection from "./about4.jsx";
 import AllCards from "./about7.jsx";
+import ContactUs from "./about8.jsx";
 // import App from "./about7.jsx";
 // import InfoCard from "./about2.jsx";
 
@@ -14,13 +15,13 @@ export default function AboutPage() {
   ];
 
   return (
-    <div className="bg-primary min-h-screen px-6 md:px-20 py-20 space-y-20">
+    <div className="bg-primary min-h-screen px-6 md:px-20 py-7 space-y-20">
       {/* Section Title */}
       
       
       <SectionTitle
         title="About Our Document Management System"
-        subtitle="Our mission is to streamline how teams manage documents by providing a secure, efficient, and user-friendly platform."
+        subtitle="Our mission is to streamline how teams manage documents by providing a secure, efficient, and user-friendly platform.Write, reflect, and grow with Wellie! Capture daily thoughts, track moods, and practice gratitude in a secure, distraction-free journal. Download now!"
       />
      
           
@@ -30,12 +31,12 @@ export default function AboutPage() {
     
         <InfoCard
           title="🌟 Our Mission"
-          description="To empower organizations to manage and track documents effortlessly while maintaining top-tier security and accessibility."
+          description="To support mindful living through simple, daily self-reflection. Wellie exists to make mental clarity, emotional wellness, and personal growth feel natural, accessible, and part of everyday life—for everyone, everywhere."
           bgColor="bg-secondary"
         />
         <InfoCard
           title="🚀 Our Vision"
-          description="To become the most trusted and intuitive document management solution for teams worldwide."
+          description="To create a world where wellness is not a luxury, but a daily habit. We envision Wellie as the go-to space for calm, clarity, and growth—empowering people to feel more grounded, more present, and more in tune with themselves."
           bgColor="bg-secondary"
         />
       </section>
@@ -51,7 +52,8 @@ export default function AboutPage() {
         </div> */}
       </section>
       <section>
-        <AllCards/>
+        {/* <AllCards/> */}
+        <ContactUs/>
       </section>
     </div>
   );
