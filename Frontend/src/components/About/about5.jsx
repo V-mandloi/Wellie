@@ -51,8 +51,12 @@ export default function AboutPage() {
           ))}
         </div> */}
       </section>
+     <section>
+     <AllCards/>
+     </section>
+     
       <section>
-        {/* <AllCards/> */}
+       
         <ContactUs/>
       </section>
     </div>

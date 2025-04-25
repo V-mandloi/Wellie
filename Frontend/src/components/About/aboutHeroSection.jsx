@@ -4,6 +4,8 @@ const HeroSection = () => {
   return (
     
     <div className=" font-custom bg-primary py-14">
+
+   
     <div className="flex flex-col md:flex-row items-center mr-10 ml-5 justify-center gap-10 py-5 bg-primary px-4 md:px-12">
     
     <div

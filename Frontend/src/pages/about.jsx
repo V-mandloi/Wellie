@@ -1,9 +1,10 @@
 
 import AboutPage from "../components/About/about5";
 // import AboutContent from "../components/About/aboutContent";
-import AboutHeroSection from "../components/About/aboutHeroSection";
+// import AboutHeroSection from "../components/About/aboutHeroSection";
 
-import AboutSupport from "../components/About/AboutSuport";
+// import AboutSupport from "../components/About/AboutSuport";
+import HeroSectionNew from "../components/About/HeroSectionNew";
 
 // import AboutFeature from "../components/About/aboutFeature";
 
@@ -11,7 +12,8 @@ import AboutSupport from "../components/About/AboutSuport";
 export default function Hero() {
   return (
     <div >
-      <AboutHeroSection />
+      {/* <AboutHeroSection /> */}
+      <HeroSectionNew/>
       {/* <AboutContent/> */}
       {/* <AboutFeature/> */}
       <AboutPage/>
