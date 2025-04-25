@@ -1,30 +1,51 @@
 // App.js
 import React from 'react';
-import Card from './about6.jsx';
+import Card from './about6';
+import CardImg1 from '../../assets/card1.png'
+import  CardImg2  from '../../assets/card2.png';
+import CardImg3 from '../../assets/card3.png';
+import CardImg4 from '../../assets/card4.png';
+
 
 const AllCards = () => {
   const cards = [
-    { title: 'Gratitude Journaling', description: 'Reflect on your day', icon: '📝' },
-    { title: 'Journaling', description: 'Capture your thoughts', icon: '🖊️' },
-    { title: 'Features', description: 'Explore app features', icon: '✨' },
-    { title: 'Motivational Quote', description: 'Stay inspired', icon: '🌟' },
+    { 
+      title: 'Gratitude Journaling', 
+      description: 'Reflect on your day', 
+      image: CardImg1 // Add the path to the image
+    },
+    { 
+      title: 'Journaling', 
+      description: 'Capture your thoughts', 
+      image: CardImg2 // Add the path to the image
+    },
+    { 
+      title: 'Features', 
+      description: 'Explore app features', 
+      image: CardImg3 // Add the path to the image
+    },
+    { 
+      title: 'Motivational Quote', 
+      description: 'Stay inspired', 
+      image: CardImg4 // Add the path to the image
+    },
   ];
 
   return (
-   <div className='justify-center items-center bg-primary'>
-   <h2 className="text-2xl md:text-3xl font-bold text-hometext text-center mb-10">
-   Discover What Wellie Can Do for You
-        </h2>
-   <div className="flex flex-wrap justify-center">     
-      {cards.map((card, index) => (
-        <Card 
+    <div className='justify-center items-center bg-primary'>
+      <h2 className="text-2xl md:text-3xl font-bold text-hometext text-center mb-10">
+        Discover What Wellie Can Do for You
+      </h2>
+      <div className="flex flex-wrap justify-center">     
+        {cards.map((card, index) => (
+          <Card
           key={index} 
           title={card.title} 
           description={card.description} 
-          icon={card.icon} 
-        />
-      ))}
-    </div>
+          image={card.image} 
+          />
+        ))}
+      </div>
     </div>
   );
 };
