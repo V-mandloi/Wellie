@@ -1,17 +1,25 @@
+// about6.js (or Card.js)
 import React from 'react';
+
 const Card = ({ title, description, image }) => {
   return (
-    <div className="bg-secondary rounded-lg shadow-lg p-6 m-2 text-center transition-transform duration-300 transform hover:scale-105 cursor-pointer hover:bg-stone-100">
-      <div className="mb-4">
-        <img
-          src={image}
-          alt={title}
-          className="w-40 h-30 object-cover mx-auto"
-        />
+    <div className="bg-hometext rounded-lg shadow-lg overflow-hidden w-72 transition-transform duration-300 transform hover:scale-105 cursor-pointer">
+      
+      {/* Image on Top */}
+      <img 
+        src={image} 
+        alt={title} 
+        className="w-full h-50 object-cover" 
+      />
+
+      {/* Content below the Image */}
+      <div className="p-6 text-center transition-colors duration-300 hover:bg-secondary group">
+        <h2 className="text-xl font-bold mb-2 text-white group-hover:text-black">{title}</h2>
+        <p className="text-white group-hover:text-black">{description}</p>
       </div>
-      <h2 className="text-xl font-bold mb-2">{title}</h2>
-      <p className="text-grey-700">{description}</p>
+
     </div>
   );
 };
-export default Card ;
+
+export default Card;
