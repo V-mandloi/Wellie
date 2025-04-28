@@ -4,6 +4,7 @@ import StepItem from "../../components/About/about3.jsx";
 import StepsSection from "./about4.jsx";
 import AllCards from "./about7.jsx";
 import ContactUs from "./about8.jsx";
+import ContactCard from "./ContactUs.jsx";
 // import App from "./about7.jsx";
 // import InfoCard from "./about2.jsx";
 
@@ -56,8 +57,8 @@ export default function AboutPage() {
      </section>
      
       <section>
-       
-        <ContactUs/>
+       <ContactCard/>
+        {/* <ContactUs/> */}
       </section>
     </div>
   );

@@ -12,6 +12,16 @@ const Button = ({ children, className, ...props }) => (
 export default function HealioLanding() {
   return (
     <div className="relative bg-primary min-h-screen flex items-center justify-center p-4 overflow-hidden">
+     <div
+        className="absolute top-0 -left-20 w-[500px] h-[500px] bg-red-100/30 border-[3px] border-green-300/50 opacity-80 animate-float"
+        style={{
+          clipPath:
+            "polygon(25% 15%, 75% 5%, 95% 40%, 85% 80%, 45% 95%, 10% 65%)",
+          borderRadius: "50% 40% 60% 45% / 40% 60% 50% 55%",
+        }}
+      ></div>
+
+     
       <div
         className="absolute top-0 -left-20 w-[500px] h-[500px] bg-red-100/30 border-[3px] border-green-300/50 opacity-80 animate-float"
         style={{

@@ -1,15 +1,18 @@
-const InfoCard=({ title, description, bgColor = 'bg-white' }) =>{
+const InfoCard = ({ title, description }) => {
   return (
     <div
-      className={`
-        p-8 rounded-xl shadow-md transition-transform duration-300 
-        ${bgColor} hover:bg-stone-100 hover:scale-105 cursor-pointer
-      `}
+      className="
+        p-8 rounded-xl shadow-md 
+        bg-hometext text-white 
+        hover:bg-secondary hover:text-black 
+        transition-all duration-300 ease-in-out 
+        cursor-pointer transform hover:scale-105 active:scale-95
+      "
     >
-      <h2 className="text-2xl font-semibold mb-4 text-gray-800">{title}</h2>
-      <p className="text-gray-600">{description}</p>
+      <h2 className="text-2xl font-semibold mb-4">{title}</h2>
+      <p>{description}</p>
     </div>
   );
-}
+};
 
-export default InfoCard
+export default InfoCard;
