@@ -6,7 +6,7 @@ import TextBlock from "../smallComponents/heading&subtitle";
 
 const BenefitsSection = () => {
   return (
-    <div className="bg-primary py-16 px-6 text-center">
+    <div className="bg-primary py-0 px-6 text-center">
       <TextBlock
         title="The benefits of Wellie"
         subtitle="Over 350 audio and video-guided sessions that break down complex scientific principles into 

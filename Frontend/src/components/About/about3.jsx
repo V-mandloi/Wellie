@@ -10,7 +10,7 @@ export default function StepItem({ step, title, desc, delay = 0, showArrow = tru
   }, [delay]);
 
   return (
-    <div className="flex flex-col items-center">
+    <div className="flex  flex-col items-center top-0">
       <div
         className={`flex flex-col items-center text-center transition-all duration-700 transform ${
           visible ? "opacity-100 translate-y-0" : "opacity-0 -translate-y-5"

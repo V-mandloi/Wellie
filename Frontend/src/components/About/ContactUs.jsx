@@ -3,11 +3,11 @@ import { FaMapMarkerAlt, FaPhoneAlt, FaEnvelope, FaGlobe } from "react-icons/fa"
 const ContactCard = () => {
   return (
   
-        
+    <div className="py-0 top-0 bg-primary">    
     
-    <div className="min-h-screen flex items-center justify-center bg-primary relative overflow-hidden">
+    <div className="min-h-screen flex items-center justify-center  bg-primary relative overflow-hidden">
        <div
-        className="absolute top-0 -left-20 w-[500px] h-[500px] bg-red-100/30 border-[3px] border-green-300/50 opacity-80 animate-float"
+        className="absolute top-0 -left-1 w-[700px] h-[700px] bg-red-100/30 border-[3px] border-green-300/50 opacity-80 animate-float"
         style={{
           clipPath:
             "polygon(25% 15%, 75% 5%, 95% 40%, 85% 80%, 45% 95%, 10% 65%)",
@@ -16,7 +16,7 @@ const ContactCard = () => {
       ></div>
 
 <div
-        className="absolute top-0 -left-20 w-[500px] h-[500px] bg-red-100/30 border-[3px] border-green-300/50 opacity-80 animate-float"
+        className="absolute top-0 -left-1 w-[700px] h-[700px] bg-red-100/30 border-[3px] border-green-300/50 opacity-80 animate-float"
         style={{
           clipPath:
             "polygon(25% 15%, 75% 5%, 95% 40%, 85% 80%, 45% 95%, 10% 65%)",
@@ -101,7 +101,7 @@ const ContactCard = () => {
 
       </div>
     </div>
-    
+    </div>
   );
 };
 

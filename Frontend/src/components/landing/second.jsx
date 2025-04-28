@@ -11,7 +11,7 @@ import signup from "../../assets/signup.jpeg";
 
 const PhilosophySection = () => {
   return (
-    <div className="flex flex-col items-center justify-center bg-primary py-16 px-4">
+    <div className="flex flex-col items-center justify-center bg-primary py-5 px-4">
       <TextBlock
         title="The Wellie Philosophy"
         subtitle="Life is noisy (and that's the way it’s supposed to be!) Nurture your inner quiet with Healio."

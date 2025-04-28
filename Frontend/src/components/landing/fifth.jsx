@@ -25,7 +25,7 @@ const cardData = [
 
 const CardContainer = ({ heading }) => {
   return (
-    <div className="px-4 py-10 text-center bg-primary flex flex-col gap-8">
+    <div className="px-4 py-0 text-center bg-primary flex flex-col gap-8">
       <TextBlock
         title="The hard Truth"
         subtitle="Most of us do very little to realize our dreams"

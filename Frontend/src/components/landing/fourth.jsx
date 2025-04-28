@@ -2,7 +2,7 @@ import React from "react";
 
 const MindshineSection = () => {
   return (
-    <section className="bg-primary py-12 px-4 sm:px-6 md:px-12 lg:px-20 lg:py-20">
+    <section className="bg-primary py-0 px-4 sm:px-6 md:px-12 lg:px-20 lg:py-20">
       <div className="max-w-6xl mx-auto flex flex-col md:flex-row justify-evenly items-center gap-10">
         <div className="md:w-1/2 text-center md:text-left">
           <h2 className="text-2xl sm:text-3xl md:text-4xl font-bold text-hometext">

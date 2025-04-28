@@ -14,8 +14,8 @@ const AllCards = () => {
   ];
 
   return (
-    <div className="bg-primary py-10">
-      <h2 className="text-2xl md:text-3xl font-bold text-hometext text-center mb-10">
+    <div className="bg-primary py-0">
+      <h2 className="text-3xl md:text-4xl font-bold text-hometext text-center mb-10">
         Discover What Wellie Can Do for You
       </h2>
       

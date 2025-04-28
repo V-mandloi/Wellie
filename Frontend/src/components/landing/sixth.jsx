@@ -21,7 +21,7 @@ const StoreButton = ({ icon, label, link, isBlack }) => {
 
 const AppDownloadSection = () => {
   return (
-    <div className="flex flex-col items-center px-6 sm:px-10 py-12 sm:py-16 w-full bg-primary">
+    <div className="flex flex-col items-center px-6 sm:px-10 py-0 sm:py-16 w-full bg-primary">
       <div className="max-w-2xl text-center px-4">
         <TextBlock
           title="Get clarity and peace of mind, wherever you are."

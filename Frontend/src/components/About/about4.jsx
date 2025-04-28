@@ -18,7 +18,7 @@ export default function StepsSection() {
   ];
 
   return (
-    <div className="flex flex-col md:flex-row items-center mr-12 ml-12 justify-center gap-10 py-12 bg-primary px-4 md:px-12">
+    <div className="flex flex-col md:flex-row items-center mr-12 ml-12 justify-center gap-10 py-0 bg-primary px-4 md:px-12">
       {/* Image on the left */}
       <div className="w-50 sm:w-45  md:w-30 lg:w-60 transition-transform duration-300">
         <img

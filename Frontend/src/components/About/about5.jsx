@@ -25,10 +25,8 @@ export default function AboutPage() {
         subtitle="Our mission is to streamline how teams manage documents by providing a secure, efficient, and user-friendly platform.Write, reflect, and grow with Wellie! Capture daily thoughts, track moods, and practice gratitude in a secure, distraction-free journal. Download now!"
       />
      
-          
-
       {/* Info Cards */}
-      <section className="grid grid-cols-1 md:grid-cols-2 gap-12">
+      <section className="grid grid-cols-1 md:grid-cols-2 py-1 gap-10">
     
         <InfoCard
           title="🌟 Our Mission"
@@ -43,20 +41,14 @@ export default function AboutPage() {
       </section>
 
       {/* Steps */}
-      <section>
+      <section className="py-0">
         <StepsSection/>
-        {/* <SectionTitle title="How It Works" />
-        <div className="space-y-10">
-          {steps.map((item, i) => (
-            <StepItem key={i} {...item} />
-          ))}
-        </div> */}
       </section>
-     <section>
+     <section >
      <AllCards/>
      </section>
      
-      <section>
+      <section className="py-0 top-0">
        <ContactCard/>
         {/* <ContactUs/> */}
       </section>
