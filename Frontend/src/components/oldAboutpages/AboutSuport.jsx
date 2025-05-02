@@ -1,5 +1,5 @@
 import React from "react";
-import SupportCard from "../About/AboutSuportCard";
+import SupportCard from "./AboutSuportCard";
 
 import chatImg from "../../assets/chatImg.png"; 
 import textImg from "../../assets/textImg.png"; 

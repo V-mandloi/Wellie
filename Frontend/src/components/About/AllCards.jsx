@@ -1,5 +1,5 @@
 import React from 'react';
-import Card from './about6';
+import Card from './Card';
 import CardImg1 from '../../assets/card1.png';
 import CardImg2 from '../../assets/card2.png';
 import CardImg3 from '../../assets/card3.png';

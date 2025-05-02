@@ -1,4 +1,4 @@
-import StepItem from "./about3"; 
+import StepItem from "./StepItem.jsx"; 
 import Design1 from "../../assets/ImgMob.jpg"
 
 export default function StepsSection() {

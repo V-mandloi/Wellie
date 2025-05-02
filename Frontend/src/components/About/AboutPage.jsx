@@ -1,12 +1,11 @@
-import SectionTitle from "../../components/About/about1.jsx";
-import InfoCard from "../../components/About/about2.jsx";
-import StepItem from "../../components/About/about3.jsx";
-import StepsSection from "./about4.jsx";
-import AllCards from "./about7.jsx";
-import ContactUs from "./about8.jsx";
+import SectionTitle from "../../components/About/Sectiontitle.jsx";
+import InfoCard from "../../components/About/InfoCard.jsx";
+
+import StepsSection from "./Stepsection.jsx";
+import AllCards from "./AllCards.jsx";
+
 import ContactCard from "./ContactUs.jsx";
-// import App from "./about7.jsx";
-// import InfoCard from "./about2.jsx";
+
 
 export default function AboutPage() {
   const steps = [
