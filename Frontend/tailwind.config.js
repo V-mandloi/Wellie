@@ -7,6 +7,7 @@ export default {
         primary: "#F8F8F8", // Background color
         secondary: "#F1E1E1", // Header color
         hometext: "#3E342C", // Home Text
+        content: "D29F80",
         white: "#FFFFFF",
         black: "#000000",
         placeholder: "#6E7174",
@@ -14,6 +15,7 @@ export default {
       },
       fontFamily: {
         custom: ["'Poppins'", "sans-serif"],
+        neucha: ["neuchaFont", "sans-serif"],
       },
     },
   },
